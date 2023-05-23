@@ -20,7 +20,7 @@ renew:
 	sudo rm -rf /home/jules/data/wp-database/*
 	make up
 
-see:
+logs:
 	docker logs wordpress
 	docker logs mariadb
 	docker logs nginx
@@ -29,4 +29,4 @@ restart:
 	make down
 	make up
 
-.PHONY: up down clean show renew see restart
+.PHONY: up down clean show renew logs restart
