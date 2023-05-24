@@ -52,13 +52,13 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/jules/data/wp-website'
+      device: '/home/julmuntz/data/wp-website'
   mariadb:
     driver: local
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/jules/data/wp-database'
+      device: '/home/julmuntz/data/wp-database'
 
 networks:
   inception:

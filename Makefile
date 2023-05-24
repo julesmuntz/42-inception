@@ -16,8 +16,8 @@ renew:
 	make down
 	docker volume rm srcs_mariadb
 	docker volume rm srcs_wordpress
-	sudo rm -rf /home/jules/data/wp-website/*
-	sudo rm -rf /home/jules/data/wp-database/*
+	sudo rm -rf /home/julmuntz/data/wp-website/*
+	sudo rm -rf /home/julmuntz/data/wp-database/*
 	make up
 
 logs:
